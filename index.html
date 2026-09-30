@@ -1,8 +1,9 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Swati Kosta Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swati Kosta | AIML Portfolio</title>
 
 <style>
 
@@ -10,137 +11,223 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Segoe UI, sans-serif;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
 background:#0f172a;
 color:white;
+line-height:1.6;
 }
 
-.hero{
+header{
 text-align:center;
 padding:80px 20px;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
 }
 
-.hero h1{
-font-size:48px;
+header h1{
+font-size:3rem;
 margin-bottom:10px;
 }
 
-.hero p{
-font-size:20px;
-color:#cbd5e1;
+header p{
+font-size:1.2rem;
 }
 
 .btn{
 display:inline-block;
 margin:10px;
-padding:12px 24px;
-background:#2563eb;
-color:white;
+padding:12px 22px;
+background:white;
+color:#2563eb;
 text-decoration:none;
-border-radius:8px;
+font-weight:bold;
+border-radius:30px;
+transition:0.3s;
 }
 
-.section{
-max-width:1000px;
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+max-width:1100px;
 margin:auto;
-padding:40px 20px;
+padding:50px 20px;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:30px;
+color:#60a5fa;
 }
 
 .card{
 background:#1e293b;
-padding:20px;
-margin:15px 0;
-border-radius:12px;
+padding:25px;
+border-radius:15px;
+margin-bottom:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.3);
 }
 
-.card h3{
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#2563eb;
+padding:10px 15px;
+border-radius:20px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+transition:.3s;
+}
+
+.project-card:hover{
+transform:translateY(-5px);
+}
+
+.project-card a{
 color:#60a5fa;
-margin-bottom:10px;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
+
+.contact a{
+color:#60a5fa;
+text-decoration:none;
 }
 
 </style>
 </head>
-
 <body>
 
-<div class="hero">
+<header>
 
 <h1>Swati Kosta</h1>
 
 <p>
-AI/ML Engineer | Python Developer | Data Science Enthusiast
+Aspiring AI/ML Engineer | Python Developer | Data Science Enthusiast
 </p>
 
 <br>
-<a href="resume.pdf.pdf
-Resume
-</a>
-<br>
-https://github.com/8009678200
-GitHub
-</a>
-<br>
-https://www.kaggle.com/swatikosta
-Kaggle
+
+<a class="btn" href="resume.pdf.pdf" target="_blank">
+📄 Resume
 </a>
 
-</div>
+<a class="btn" href="https://github.com/8009678200/ML.github.io" target="_blank">
+💻 GitHub
+</a>
 
-<div class="section">
+<a class="btn" href="https://www.kaggle.com/swatikosta" target="_blank">
+🏆 Kaggle
+</a>
+
+https://www.linkedin.com/in/swatikosta
+🔗 LinkedIn
+</a>
+
+</header>
+
+<section>
+
+<h2 class="section-title">About Me</h2>
 
 <div class="card">
-<h2>About Me</h2>
-<br>
 <p>
-B.Tech graduate passionate about Artificial Intelligence,
-Machine Learning and Data Science.
+B.Tech graduate specializing in Artificial Intelligence and Machine Learning.
+Passionate about solving real-world problems using Machine Learning,
+Data Science and Python development.
 </p>
 </div>
 
-<div class="card">
-<h2>Skills</h2>
-<br>
-<p>
-Python • SQL • Pandas • NumPy • Scikit-Learn • Git • GitHub • MLflow
-</p>
+</section>
+
+<section>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">SQL</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">Pandas</div>
+<div class="skill">NumPy</div>
+<div class="skill">Scikit-Learn</div>
+<div class="skill">GitHub</div>
+<div class="skill">MLflow</div>
+
 </div>
 
-<div class="card">
-<h2>Projects</h2>
-<br>
+</section>
 
+<section>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
 <h3>Customer Churn Prediction</h3>
-<p>Predict customer attrition using ML.</p>
+<p>Predict customer attrition using Machine Learning.</p>
+</div>
 
-<br>
-
+<div class="project-card">
 <h3>Heart Disease Prediction</h3>
 <p>Classification model for disease prediction.</p>
+</div>
 
-<br>
-
+<div class="project-card">
 <h3>Sentiment Analysis Tool</h3>
-<p>NLP based sentiment classification.</p>
+<p>NLP based sentiment classification project.</p>
+</div>
 
-<br>
-
+<div class="project-card">
 <h3>Web Scraping Pipeline</h3>
 <p>Automated data extraction using Python.</p>
+</div>
+
+<div class="project-card">
+<h3>Diwali Sales Analysis</h3>
+<p>EDA and business insights using data analytics.</p>
+</div>
 
 </div>
 
+</section>
+
+<section>
+
+<h2 class="section-title">Training & Internship</h2>
+
 <div class="card">
-<h2>Training & Internship</h2>
-<br>
-<p>
-Brainy Beam Technologies
-</p>
+
+<h3>Brainy Beam Technologies</h3>
 
 <ul>
-<li>Machine Learning</li>
+<li>Machine Learning Training</li>
 <li>Data Analysis</li>
 <li>Predictive Modeling</li>
 <li>Real-world Project Development</li>
@@ -148,18 +235,55 @@ Brainy Beam Technologies
 
 </div>
 
+</section>
+
+<section>
+
+<h2 class="section-title">Certificates & Achievements</h2>
+
 <div class="card">
-<h2>Certifications</h2>
 
 <ul>
-<li>Internshala Machine Learning</li>
-<li>Brainy Beam Training</li>
-<li>Kaggle Badges</li>
+<li>Internshala Machine Learning Certification</li>
+<li>Brainy Beam Training Certificate</li>
+<li>Kaggle Learning Badges</li>
+<li>Multiple AIML Projects Completed</li>
 </ul>
 
 </div>
 
+</section>
+
+<section>
+
+<h2 class="section-title">Contact</h2>
+
+<div class="card contact">
+
+<p>📧 swatikosta10@gmail.com</p>
+
+<p>
+🔗
+https://www.linkedin.com/in/swatikosta
+LinkedIn Profile
+</a>
+</p>
+
+<p>
+🏆
+<a href="https://www.kaggle.com/swatikosta" target="_blank">
+Kaggle Profile
+</a>
+</p>
+
+<p>
+💻
+https://github.com/8009678200
+GitHub Profile
+</a>
+</p>
+
 </div>
 
-</body>
-</html>
+
+
