@@ -1,40 +1,72 @@
-# Swati Kosta
+Home
 
-## AIML Engineer
+Swati Kosta
+Aspiring AI/ML Engineer
+Python | Machine Learning | Data Science
+[Resume] [GitHub] [Kaggle]
 
-B.Tech Computer Science graduate with a specialization in Artificial Intelligence and Machine Learning.
+2. About Me
+Recent B.E IT graduate passionate about
+Machine Learning, Data Analysis and AI solutions.
+3. Skills
+ programming:   
+Python, SQL
 
-### Skills
+Libraries:
+Pandas, NumPy, Scikit-learn
 
-- Python
-- Machine Learning
-- Data Analysis
-- SQL
-- Git & GitHub
-- MLflow
+Tools:
+Git, GitHub, MLflow, Jupyter Notebook
 
-### Projects
+Concepts:
+Machine Learning
+Data Analysis
+EDA
+Feature Engineering
 
-#### Customer Churn Prediction
-Predict customer churn using machine learning algorithms.
+4. Projects
+   
+my projects:
+ ✅ Customer Churn Prediction
+ ✅ Heart Disease Prediction
+ ✅ Sentiment Analysis Tool
+ ✅ Web Scraping Pipeline
+ ✅ Diwali Sales Analysis
+ 
+ 🏆 Certifications
 
-Repository:
-https://github.com/8009678200/ML1
+Internshala Machine Learning
+ 
+Brainy Beam Training
+ 
+ Kaggle badges
+ 
+ 💼 Training / Internship
+Brainy Beam Technologies
 
-#### Heart Disease Prediction
-Machine learning model for early disease prediction.
+ • Machine Learning Training
+• Data Analysis
+• Predictive Modeling
+• Real-world Project Development
 
-#### Web Scraping Pipeline
-Automated data collection using Python.
+📊 Kaggle Section
 
-### Profiles
+Kaggle Profile
+View Notebooks
+View Datasets
+link:
+https://www.kaggle.com/swatikosta
 
-GitHub:
-https://github.com/8009678200
+📄 Resume
 
-Kaggle:
-PASTE_YOUR_KAGGLE_LINK_HERE
+Resume PDF upload :## Resume
 
-### Contact
+./Swati_Kosta_Resume.pdf
+Download Resume
 
-Email: your_email@gmail.com
+🔗 Social Links
+
+GitHub:https://github.com/8009678200/ML.github.io
+Kaggle:https://www.kaggle.com/swatikosta
+LinkedIn:www.linkedin.com/in/swatikosta
+Email:swatikosta10@gmail.com
